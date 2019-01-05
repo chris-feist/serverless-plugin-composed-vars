@@ -1,0 +1,32 @@
+{
+  "name": "serverless-plugin-composed-vars",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A Serverless plugin that makes custom variables and environment variables easily composable",
+  "repository": "github.com",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx use-yarn",
+    "test": "jest",
+    "integration": "jest --config jest.integration.config.js",
+    "lint": "yarn run lint:eslint",
+    "lint:eslint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "serverless",
+    "serverless-plugin"
+  ],
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "mixin-deep": "^2.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "jest": "^23.6.0",
+    "serverless": "^1.35.1"
+  }
+}

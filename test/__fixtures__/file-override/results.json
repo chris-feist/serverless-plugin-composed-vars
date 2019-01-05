@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "myServiceName": "Always My Service",
+    "myEndpoint": "test.endpoint.com",
+    "webpack": {
+      "webpackConfig": "webpack.config.js",
+      "includeModules": false,
+      "packager": "yarn"
+    }
+  },
+  "environment": {
+    "MY_ENDPOINT": "test.endpoint.com",
+    "STAGE": "test"
+  }
+}

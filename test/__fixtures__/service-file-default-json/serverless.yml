@@ -1,0 +1,15 @@
+service:
+  name: TestService
+
+plugins:
+  - serverless-plugin-composed-vars
+  - serverless-plugin-test-capture
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: test-stage
+
+functions:
+  hello:
+    handler: hello.handler

@@ -1,0 +1,17 @@
+{
+  "custom": {
+    "googlesWebsite": "www.google.com",
+    "myEndpoint": "test.endpoint.com",
+    "myServiceName": "Always My Service",
+    "webpack": {
+      "webpackConfig": "webpack.config.js",
+      "includeModules": false,
+      "packager": "yarn"
+    }
+  },
+  "environment": {
+    "THE_ANSWER_IS": 42,
+    "STAGE": "test",
+    "MY_ENDPOINT": "test.endpoint.com"
+  }
+}

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComposedVarsPlugin computedHook logs output 1`] = `
+"serverless-plugin-composed-vars: 
+{
+  \\"custom\\": {},
+  \\"environment\\": {}
+}"
+`;
+
+exports[`ComposedVarsPlugin mergedHook logs output 1`] = `
+"serverless-plugin-composed-vars: 
+{
+  \\"custom\\": {
+    \\"custom\\": 1
+  },
+  \\"environment\\": {
+    \\"envVar\\": \\"value\\"
+  }
+}"
+`;

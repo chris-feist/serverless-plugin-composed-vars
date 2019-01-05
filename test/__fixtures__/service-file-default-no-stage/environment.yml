@@ -1,0 +1,2 @@
+MY_ENDPOINT: ${self:custom.myEndpoint}
+STAGE: beta

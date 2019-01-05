@@ -1,0 +1,22 @@
+service:
+  name: TestService
+
+plugins:
+  - serverless-plugin-composed-vars
+  - serverless-plugin-test-capture
+
+custom:
+  googlesWebsite: www.google.com
+  myEndpoint: dev.endpoint.com
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: test-stage
+  environment:
+    THE_ANSWER_IS: 42
+    STAGE: dev
+
+functions:
+  hello:
+    handler: hello.handler

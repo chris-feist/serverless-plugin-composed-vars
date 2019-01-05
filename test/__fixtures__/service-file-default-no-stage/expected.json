@@ -1,0 +1,15 @@
+{
+  "custom": {
+    "myServiceName": "Always My Service",
+    "myEndpoint": "beta.endpoint.com",
+    "webpack": {
+      "webpackConfig": "beta-webpack.config.js",
+      "includeModules": true,
+      "packager": "yarn"
+    }
+  },
+  "environment": {
+    "MY_ENDPOINT": "beta.endpoint.com",
+    "STAGE": "beta"
+  }
+}

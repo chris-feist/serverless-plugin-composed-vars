@@ -1,0 +1,18 @@
+service:
+  name: TestService
+
+plugins:
+  - serverless-plugin-composed-vars
+  - serverless-plugin-test-capture
+
+custom: ${file(./vars/vars.yml)}
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: test-stage
+  environment: ${file(./vars/env-vars.yml)}
+
+functions:
+  hello:
+    handler: hello.handler

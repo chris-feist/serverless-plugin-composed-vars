@@ -1,0 +1,9 @@
+module.exports = {
+  myServiceName: 'Always My Service',
+  myEndpoint: 'beta.endpoint.com',
+  webpack: {
+    webpackConfig: 'beta-webpack.config.js',
+    includeModules: true,
+    packager: 'yarn',
+  },
+};

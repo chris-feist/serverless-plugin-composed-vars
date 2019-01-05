@@ -1,0 +1,10 @@
+{
+  "custom": {
+    "googlesWebsite": "www.google.com",
+    "myEndpoint": "dev.endpoint.com"
+  },
+  "environment": {
+    "THE_ANSWER_IS": 42,
+    "STAGE": "dev"
+  }
+}
