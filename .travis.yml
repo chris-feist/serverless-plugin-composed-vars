@@ -8,8 +8,10 @@ cache: yarn
 
 install:
   - travis_retry yarn install
+  - yarn global add codecov
 
 script:
   - yarn run lint
   - yarn run test
   - yarn run integration
+  - codecov
