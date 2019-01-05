@@ -264,7 +264,7 @@ tableNames: ${file(./table-names.prod.yml)}
 [icon-npm-total-downloads]: https://img.shields.io/npm/dt/serverless-plugin-composed-vars.svg
 [icon-npm-version]: https://img.shields.io/npm/v/serverless-plugin-composed-vars.svg
 [icon-npm-license]: https://img.shields.io/npm/l/serverless-plugin-composed-vars.svg
-[icon-build-status]: https://img.shields.io/travis/chris-feist/serverless-plugin-composed-vars/master.svg
+[icon-build-status]: https://travis-ci.com/chris-feist/serverless-plugin-composed-vars.svg?branch=master
 [icon-coverage]: https://img.shields.io/codecov/c/github/chris-feist/serverless-plugin-composed-vars/master.svg
 
 [link-serverless]: http://www.serverless.com/
