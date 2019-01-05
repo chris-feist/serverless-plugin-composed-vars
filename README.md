@@ -6,6 +6,8 @@ This plugin is [Serverless][link-serverless] variables reimagined, making them c
 [![License][icon-license]][link-license]
 [![NPM Total Downloads][icon-npm-total-downloads]][link-npm]
 [![NPM Version][icon-npm-version]][link-npm]
+[![Build Status][icon-build-status]][link-build]
+[![Coverage][icon-coverage]][link-coverage]
 
 ## Installation
 
@@ -262,7 +264,11 @@ tableNames: ${file(./table-names.prod.yml)}
 [icon-npm-total-downloads]: https://img.shields.io/npm/dt/serverless-plugin-composed-vars.svg
 [icon-npm-version]: https://img.shields.io/npm/v/serverless-plugin-composed-vars.svg
 [icon-npm-license]: https://img.shields.io/npm/l/serverless-plugin-composed-vars.svg
+[icon-build-status]: https://img.shields.io/travis/chris-feist/serverless-plugin-composed-vars/master.svg
+[icon-coverage]: https://img.shields.io/codecov/c/github/chris-feist/serverless-plugin-composed-vars/master.svg
 
 [link-serverless]: http://www.serverless.com/
 [link-license]: ./LICENSE
 [link-npm]: https://www.npmjs.com/package/serverless-plugin-composed-vars
+[link-build]: https://travis-ci.com/chris-feist/serverless-plugin-composed-vars
+[link-coverage]: https://codecov.io/gh/chris-feist/serverless-plugin-composed-vars
