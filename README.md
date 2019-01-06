@@ -72,7 +72,7 @@ Create an `environment.yml` file for default definitions:
 
 ```yaml
 # environment.yml
-MY_ENDPOINT:: ${self:custom.myEndpoint}
+MY_ENDPOINT: ${self:custom.myEndpoint}
 STAGE: beta
 ```
 
