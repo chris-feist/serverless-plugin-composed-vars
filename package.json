@@ -1,9 +1,9 @@
 {
   "name": "serverless-plugin-composed-vars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "A Serverless plugin that makes custom variables and environment variables easily composable",
-  "repository": "github.com",
+  "repository": "github:chris-feist/serverless-plugin-composed-vars",
   "main": "./lib/index.js",
   "scripts": {
     "preinstall": "npx use-yarn",
