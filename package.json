@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "A Serverless plugin that makes custom variables and environment variables easily composable",
   "repository": "github.com",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "preinstall": "npx use-yarn",
     "test": "jest",
@@ -15,6 +15,9 @@
   "keywords": [
     "serverless",
     "serverless-plugin"
+  ],
+  "files": [
+    "/lib"
   ],
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
