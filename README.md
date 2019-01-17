@@ -31,7 +31,7 @@ plugins:
 
 ### Custom Variables
 
-Create a `varialbes.yml` file for default variable definitions:
+Create a `variables.yml` file for default variable definitions:
 
 ```yaml
 # variables.yml
