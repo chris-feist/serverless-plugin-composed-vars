@@ -25,11 +25,11 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "^5.11.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.1.2",
-    "jest": "^23.6.0",
-    "serverless": "^1.35.1"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "jest": "^24.1.0",
+    "serverless": "^1.38.0"
   }
 }
