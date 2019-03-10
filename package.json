@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-composed-vars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "A Serverless plugin that makes custom variables and environment variables easily composable",
   "repository": "github:chris-feist/serverless-plugin-composed-vars",
