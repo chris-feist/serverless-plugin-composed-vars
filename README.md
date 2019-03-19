@@ -12,10 +12,6 @@ This plugin is [Serverless][link-serverless] variables reimagined, making them c
 ## Installation
 
 ```sh
-npm install -D serverless-plugin-composed-vars
-```
-or
-```sh
 yarn add -D serverless-plugin-composed-vars
 ```
 
